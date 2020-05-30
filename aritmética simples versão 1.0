@@ -1,0 +1,22 @@
+a = int(input())
+signal = str(input())
+b = int(input())
+
+if signal == "+":
+    c = a+b
+    print("   {}".format(a))
+    print("{}  {}".format(signal,b))
+    print("------")
+    print("   {} ".format(c))
+elif signal == "-":
+    c = a-b
+    print("   {}".format(a))
+    print("{}  {}".format(signal,b))
+    print("------")
+    print("   {} ".format(c))
+elif signal == "*":
+    c = a*b
+    print("   {}".format(a))
+    print("{}  {}".format(signal,b))
+    print("------")
+    print("   {} ".format(c))
